@@ -8,4 +8,4 @@ example of how to retain an ExoPlayer instance across configuration changes with
 maintaining its lifecycle when the app is backgrounded/foregrounded.
 
 TL;DR Use a ViewModel composed of the ExoPlayer instance, and have that ViewModel listen to ProcessLifecycleOwner
-changes.
+changes to manage ExoPlayer state.
