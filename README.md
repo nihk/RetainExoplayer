@@ -1,5 +1,6 @@
 # RetainExoplayer
 This repo is code to accompany my Medium article:
+
 https://medium.com/@nicholas.rose/leveraging-aac-to-manage-exoplayer-state-a9c0a19d6c14
 
 The official ExoPlayer uses an activity with a manifest attribute looking like:
