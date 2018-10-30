@@ -13,7 +13,7 @@ class PlayerViewModel(application: Application)
     : AndroidViewModel(application)
     , LifecycleObserver {
 
-    private val _player = MutableLiveData<Player>()
+    private val _player = MutableLiveData<Player?>()
     val player: LiveData<Player?> get() = _player
     private var contentPosition = 0L
     private var playWhenReady = true
